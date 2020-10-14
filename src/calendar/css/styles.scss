@@ -1,9 +1,9 @@
 $--color-primary: #1890FF !default;
 $--color-white: #fff!default;
 $--color-success:#66BF16 !default;
-$--calendar-weekend-background-color :#efefef !default;
+$--calendar-weekend-background-color :#f0f2f5 !default;
 $--border-color-base:#e8eaec !default;
-$--calendar-selected-background-color: mix($--color-white, $--color-primary, 90%) !default;
+$--calendar-selected-background-color: #f0faff !default;
 $--calendar-selected-font-color :$--color-primary;
 $--color-success-lighter : mix($--color-white, $--color-success, 90%) !default;
 $--background-color-darken: #E5E5E5 !default;

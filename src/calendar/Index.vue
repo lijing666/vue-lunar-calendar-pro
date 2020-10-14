@@ -27,7 +27,7 @@ import Item from "./Item";
 import TitleBar from "./TitleBar";
 
 export default {
-  name: "Calendar",
+  name: "m-lunar-calendar",
   components: { Item, TitleBar },
   props: {
     width: {

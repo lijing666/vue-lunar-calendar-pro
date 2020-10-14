@@ -1,12 +1,13 @@
 {
-  "name": "vue-lunar-calendar-pro",
+  "name": "m-lunar-calendar",
   "description": "A lunar calendar component for Vue.js",
-  "version": "1.0.14",
+  "version": "2.0.1",
   "author": "wangdaodao <hi@wangdaodao.com>",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "deploy": "npm run build && npm publish . --registry=https://repo.bingosoft.net/repository/npm-bingo/"
   },
   "private": false,
   "main": "dist/vue-calendar.js",
